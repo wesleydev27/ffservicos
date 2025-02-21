@@ -448,6 +448,17 @@
     // Adiciona o evento de clique para voltar ao topo
     backToTopBtn.addEventListener('click', scrollToTop);
   </script>
+
+  <script>
+
+    //MENU MOBILE
+    let btnMob = document.querySelector('#menu-button');
+    let menu = document.querySelector('#menu');
+
+    btnMob.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
 </body>
 
 </html>
