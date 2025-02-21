@@ -1,0 +1,72 @@
+<!-- Header -->
+<header
+    class="bg-[var(--white)] text-[var(--secondary)] p-2 fixed top-0 left-0 right-0 w-full z-50 shadow-md font-medium ">
+    <div class="container mx-auto  flex justify-between items-center">
+
+        <h1><img src="img/Logo/Logo (azul e amarelo).png" alt="Logo da FF Serviços" class="w-16 ">
+            <span class="sr-only">FF Serviços - Marido de Aluguel</span>
+        </h1>
+        <nav class="hidden md:block">
+            <ul class="flex items-center gap-4">
+                <li><a href="alvenaria.html" class="hover:text-[var(--primary)]">Alvenaria</a></li>
+                <li><a href="#reparos" class="hover:text-[var(--primary)]">Reparos</a></li>
+                <li><a href="#eletrica" class="hover:text-[var(--primary)]">Elétrica</a></li>
+                <li><a href="#hidraulica" class="hover:text-[var(--primary)]">Hidráulica</a></li>
+
+                <!-- Orçamento via WhatsApp desktop -->
+                <a href="https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+                    class="flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] 
+    hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor" class="mr-2">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12c0 2.088.547 4.059 1.584 5.799L.049 24l6.354-1.501A11.959 11.959 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.092a9.978 9.978 0 0 1-5.078-1.373l-.364-.216-3.773.89.829-3.507-.24-.388A9.939 9.939 0 0 1 2 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10zm5.506-7.425c-.291-.146-1.723-.854-1.99-.949-.266-.098-.462-.146-.657.146-.196.292-.754.949-.925 1.146-.17.195-.34.22-.63.073-1.715-.854-2.845-1.524-3.986-3.437-.3-.512.3-.476.854-1.586.095-.195.048-.365-.025-.511-.073-.146-.657-1.59-.899-2.185-.237-.57-.479-.49-.657-.499-.172-.008-.37-.01-.568-.01a1.105 1.105 0 0 0-.803.366c-.267.292-1.014.993-1.014 2.419s1.038 2.805 1.182 2.998c.146.195 2.036 3.108 4.937 4.355.689.298 1.226.475 1.646.608.692.22 1.32.189 1.816.114.554-.082 1.723-.704 1.967-1.385.243-.682.243-1.267.17-1.385-.073-.122-.267-.195-.558-.34z" />
+                    </svg>
+                    Solicitar orçamento
+                </a>
+
+            </ul>
+        </nav>
+        <!-- Botão de busca visível no desktop e no mobile -->
+        <div id="open-search-button" class="fixed bottom-20 right-4 transition-transform transform hover:scale-110">
+            <button
+                class="bg-[var(--secondary)] text-[var(--white)] w-14 h-14 rounded-full flex items-center justify-center shadow-md ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" />
+                </svg>
+            </button>
+        </div>
+
+        <!--Menu Mobile-->
+        <div class="md:hidden" aria-label="Abrir menu">
+            <button class="bg-[var(--secondary)] text-[var(--white)] p-2 rounded" id="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z" />
+                </svg>
+            </button>
+            <div id="menu" class="absolute top-20  right-0 w-full  bg-[var(--secondary)] text-[var(--white)]">
+                <ul class="flex flex-col text-center p-12 gap-4">
+                    <li><a href="alvenaria.html" class="hover:text-[var(--primary)]">Alvenaria</a></li>
+                    <li><a href="#reparos" class="hover:text-[var(--primary)]">Reparos</a></li>
+                    <li><a href="#eletrica" class="hover:text-[var(--primary)]">Elétrica</a></li>
+                    <li><a href="#hidraulica" class="hover:text-[var(--primary)]">Hidráulica</a></li>
+
+
+                    <!-- Orçamento via WhatsApp mobile -->
+                    <a href="https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+                        class="flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] 
+hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" class="mr-2">
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12c0 2.088.547 4.059 1.584 5.799L.049 24l6.354-1.501A11.959 11.959 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.092a9.978 9.978 0 0 1-5.078-1.373l-.364-.216-3.773.89.829-3.507-.24-.388A9.939 9.939 0 0 1 2 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10zm5.506-7.425c-.291-.146-1.723-.854-1.99-.949-.266-.098-.462-.146-.657.146-.196.292-.754.949-.925 1.146-.17.195-.34.22-.63.073-1.715-.854-2.845-1.524-3.986-3.437-.3-.512.3-.476.854-1.586.095-.195.048-.365-.025-.511-.073-.146-.657-1.59-.899-2.185-.237-.57-.479-.49-.657-.499-.172-.008-.37-.01-.568-.01a1.105 1.105 0 0 0-.803.366c-.267.292-1.014.993-1.014 2.419s1.038 2.805 1.182 2.998c.146.195 2.036 3.108 4.937 4.355.689.298 1.226.475 1.646.608.692.22 1.32.189 1.816.114.554-.082 1.723-.704 1.967-1.385.243-.682.243-1.267.17-1.385-.073-.122-.267-.195-.558-.34z" />
+                        </svg>
+                        Solicitar orçamento
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
