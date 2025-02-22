@@ -18,95 +18,101 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#fedc44" />
-    <link rel="shortcut icon" href="../img/Logo/Logo (azul e amarelo).png (azul e amarelo).png" type="image/x-icon" />
-    <title>FF Serviços | Marido de Aluguel</title>
+    <link rel="shortcut icon" href="../img/Logo/Logo (azul e amarelo).png" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- CSS -->
-    <style>
-        :root {
-            --primary: #fedc44;
-            --secondary: #013a64;
-            --white: #fff;
-            --black: #000;
-            --background: #f5f5f5;
-            --background-product: #5f5d5d;
-            --green-whatsapp: #25d366;
-            --green-hover: #25d365d2;
-        }
-
-        /*ANIMAÇÃO MENU MOBILE*/
-        #menu {
-            opacity: 0;
-            transform: translateX(-20px);
-            transition: opacity 0.3s ease, transform 0.3s ease;
-            pointer-events: none;
-            /* Impede clique quando invisível */
-        }
-
-        #menu.show {
-            opacity: 1;
-            transform: translateY(0);
-            pointer-events: auto;
-        }
-
-        /*SUAVIDADE DE ROLAGEM*/
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /*ANIMAÇÃO PULSO NOS BOTÕES*/
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.05);
-                /* Aumenta o tamanho do botão */
-            }
-
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        /* Aplicar animação no hover */
-        a:hover {
-            animation: pulse 1s infinite;
-            /* Aplica o efeito de pulso infinito ao passar o mouse */
-        }
-
-        /*CSS PARA DESTACAR O PRODUTO*/
-        .highlight {
-            animation: highlightEffect 1s ease-in-out alternate;
-        }
-
-        @keyframes highlightEffect {
-            0% {
-                transform: scale(1);
-                box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
-            }
-
-            100% {
-                transform: scale(1.1);
-                box-shadow: 0 0 20px rgba(255, 255, 0, 1);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>FF Serviços | Alvenaria</title>
 </head>
 
 <body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header
+        class="bg-[var(--white)] text-[var(--secondary)] p-2 fixed top-0 left-0 right-0 w-full z-50 shadow-md font-medium ">
+        <div class="container mx-auto  flex justify-between items-center">
 
-    <!--HEADER CABEÇALHO-->
-    <header></header>
-    <!--- SLIDERS-->
+            <h1><img src="../img/Logo/Logo (azul e amarelo).png" alt="Logo da FF Serviços" class="w-16 ">
+                <span class="sr-only">FF Serviços - Marido de Aluguel</span>
+            </h1>
+            <nav class="hidden md:block">
+                <ul class="flex items-center gap-4">
+                    <li><a href="/pages/alvenaria.html" class="hover:text-[var(--primary)]">Alvenaria</a></li>
+                    <li><a href="pages/reparos.html" class="hover:text-[var(--primary)]">Reparos</a></li>
+                    <li><a href="pages/eletrica.html" class="hover:text-[var(--primary)]">Elétrica</a></li>
+                    <li><a href="pages/hidraulica.html" class="hover:text-[var(--primary)]">Hidráulica</a></li>
+
+                    <!-- Orçamento via WhatsApp desktop -->
+                    <a href="https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+                        class="flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] 
+hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" class="mr-2">
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12c0 2.088.547 4.059 1.584 5.799L.049 24l6.354-1.501A11.959 11.959 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.092a9.978 9.978 0 0 1-5.078-1.373l-.364-.216-3.773.89.829-3.507-.24-.388A9.939 9.939 0 0 1 2 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10zm5.506-7.425c-.291-.146-1.723-.854-1.99-.949-.266-.098-.462-.146-.657.146-.196.292-.754.949-.925 1.146-.17.195-.34.22-.63.073-1.715-.854-2.845-1.524-3.986-3.437-.3-.512.3-.476.854-1.586.095-.195.048-.365-.025-.511-.073-.146-.657-1.59-.899-2.185-.237-.57-.479-.49-.657-.499-.172-.008-.37-.01-.568-.01a1.105 1.105 0 0 0-.803.366c-.267.292-1.014.993-1.014 2.419s1.038 2.805 1.182 2.998c.146.195 2.036 3.108 4.937 4.355.689.298 1.226.475 1.646.608.692.22 1.32.189 1.816.114.554-.082 1.723-.704 1.967-1.385.243-.682.243-1.267.17-1.385-.073-.122-.267-.195-.558-.34z" />
+                        </svg>
+                        Solicitar orçamento
+                    </a>
+
+                </ul>
+            </nav>
+            <!-- Botão de busca visível no desktop e no mobile -->
+            <div id="open-search-button" class="fixed bottom-20 right-4 transition-transform transform hover:scale-110">
+                <button
+                    class="bg-[var(--secondary)] text-[var(--white)] w-14 h-14 rounded-full flex items-center justify-center shadow-md ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" />
+                    </svg>
+                </button>
+            </div>
+
+            <!--Menu Mobile-->
+            <div class="md:hidden" aria-label="Abrir menu">
+                <button class="bg-[var(--secondary)] text-[var(--white)] p-2 rounded" id="menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z" />
+                    </svg>
+                </button>
+                <div id="menu" class="absolute top-20  right-0 w-full  bg-[var(--secondary)] text-[var(--white)]">
+                    <ul class="flex flex-col text-center p-12 gap-4">
+                        <li><a href="pages/alvenaria.html" class="hover:text-[var(--primary)]">Alvenaria</a></li>
+                        <li><a href="pages/reparos.html" class="hover:text-[var(--primary)]">Reparos</a></li>
+                        <li><a href="pages/eletrica.html" class="hover:text-[var(--primary)]">Elétrica</a></li>
+                        <li><a href="pages/hidraulica.html" class="hover:text-[var(--primary)]">Hidráulica</a></li>
+
+
+                        <!-- Orçamento via WhatsApp mobile -->
+                        <a href="https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+                            class="flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] 
+hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor" class="mr-2">
+                                <path
+                                    d="M12 0C5.373 0 0 5.373 0 12c0 2.088.547 4.059 1.584 5.799L.049 24l6.354-1.501A11.959 11.959 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.092a9.978 9.978 0 0 1-5.078-1.373l-.364-.216-3.773.89.829-3.507-.24-.388A9.939 9.939 0 0 1 2 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10zm5.506-7.425c-.291-.146-1.723-.854-1.99-.949-.266-.098-.462-.146-.657.146-.196.292-.754.949-.925 1.146-.17.195-.34.22-.63.073-1.715-.854-2.845-1.524-3.986-3.437-.3-.512.3-.476.854-1.586.095-.195.048-.365-.025-.511-.073-.146-.657-1.59-.899-2.185-.237-.57-.479-.49-.657-.499-.172-.008-.37-.01-.568-.01a1.105 1.105 0 0 0-.803.366c-.267.292-1.014.993-1.014 2.419s1.038 2.805 1.182 2.998c.146.195 2.036 3.108 4.937 4.355.689.298 1.226.475 1.646.608.692.22 1.32.189 1.816.114.554-.082 1.723-.704 1.967-1.385.243-.682.243-1.267.17-1.385-.073-.122-.267-.195-.558-.34z" />
+                            </svg>
+                            Solicitar orçamento
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sliders -->
     <section class="relative w-full overflow-hidden">
         <div class="flex transition-transform duration-500 ease-in-out" id="slider">
             <!-- Slide 1 -->
             <div class="w-full min-w-full bg-[var(--secondary)] text-[var(--white)] py-20 text-center mt-16">
                 <h1 class="text-4xl font-medium p-2">Construção e reparos em alvenaria com qualidade e precisão</h1>
-                <p class="mt-2 text-2xl  ">Seu lar ou empresa renovada com profissionalismo!</p>
+                <p class="mt-2 text-2xl">Seu lar ou empresa renovada com profissionalismo!</p>
                 <a href="#contato"
                     class="mt-4 inline-block bg-[var(--primary)] text-[var(--black)] px-16 py-4 rounded-full font-medium">
                     Solicite um Orçamento
@@ -115,7 +121,7 @@
         </div>
     </section>
 
-    <!-- PRODUCTS -->
+    <!-- Products -->
     <section class="bg-[var(--background)]">
         <section id="produtos" class="py-16 container mx-auto">
             <h2 class="text-4xl font-bold text-center text-[var(--secondary)]">
@@ -131,9 +137,7 @@
         </section>
     </section>
 
-
-
-    <!--BOTÃO VOLTA PARA O TOPO-->
+    <!-- Botão Volta para o Topo -->
     <button id="back-to-top-btn" aria-label="Voltar ao topo"
         class="fixed bottom-4 left-4 p-3 z-50 bg-[var(--secondary)] text-white rounded-full shadow-lg opacity-0 transition-opacity duration-300 border-2 border-[var(--primary)]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
@@ -141,59 +145,40 @@
         </svg>
     </button>
 
-
-
-    <!-- Botão  whatsapp-->
-    <div class="fixed bottom-4 right-4">
-        <a href="https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
-            target="_blank"
-            class="relative flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg transition-transform transform hover:scale-110">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M12 0C5.373 0 0 5.373 0 12c0 2.172.577 4.225 1.662 6.045L0 24l6.177-1.648C8.07 23.424 10.022 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.814 0-3.584-.487-5.12-1.412l-.367-.214-3.662.977 1.019-3.566-.24-.38A9.927 9.927 0 0 1 2 12c0-5.522 4.478-10 10-10s10 4.478 10 10-4.478 10-10 10zm4.99-7.347c-.273-.137-1.623-.8-1.875-.89s-.435-.137-.62.137c-.187.273-.713.89-.873 1.074-.16.187-.32.2-.593.067-1.623-.8-2.685-1.427-3.76-3.24-.283-.487.283-.453.807-1.51.09-.187.045-.35-.022-.487-.067-.137-.62-1.493-.847-2.037-.223-.537-.45-.463-.62-.473-.16-.01-.35-.012-.54-.012a1.04 1.04 0 0 0-.74.35c-.253.273-.967.947-.967 2.31 0 1.364.99 2.68 1.13 2.87.14.187 1.946 2.97 4.71 4.166 1.672.722 2.33.78 3.16.656.507-.075 1.623-.662 1.85-1.3.227-.637.227-1.18.16-1.3-.067-.12-.213-.187-.467-.3z" />
-            </svg>
-        </a>
+    <!-- Tela modal de busca -->
+    <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden" id="search-modal-overlay">
+        <div class="flex flex-col justify-center items-center h-full">
+            <div class="bg-[var(--secondary)] text-[var(--white)] p-6 rounded shadow-lg m-3">
+                <form class="flex items-center space-x-4">
+                    <input type="text" placeholder="Buscar por um serviço"
+                        class="w-full px-6 py-3 border rounded text-[var(--black)] font-medium" />
+                    <button type="submit"
+                        class="bg-[var(--primary)] text-[var(--black)] px-6 py-3 w-32 rounded font-medium">
+                        Buscar
+                    </button>
+                </form>
+            </div>
+        </div>
     </div>
 
-    <!--FOOTER-->
+    <!-- Footer -->
     <footer></footer>
+
+    <!-- Modal de Nenhum Produto Encontrado -->
+    <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden" id="no-results-modal">
+        <div class="flex justify-center items-center h-full">
+            <div class="bg-[var(--secondary)] text-[var(--white)] p-6 rounded shadow-lg">
+                <p class="message">Nenhum produto encontrado</p>
+                <button
+                    class="close-button bg-[var(--primary)] text-[var(--black)] px-6 py-3 rounded font-medium mt-4 flex justify-center items-center w-full">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="../js/components.js"></script>
     <script src="../js/alvenaria.js"></script>
-
-    <script>
-        // SCRIPT VOLTA PARA O TOPO - Usando `defer` e melhorias de performance
-        const backToTopBtn = document.getElementById('back-to-top-btn');
-        let ticking = false;
-
-        function checkScroll() {
-            if (!ticking) {
-                requestAnimationFrame(() => {
-                    const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-                    const scrollPosition = window.pageYOffset;
-
-                    // Controle de opacidade do botão
-                    backToTopBtn.classList.toggle('opacity-0', scrollPosition <= totalHeight / 2);
-                    backToTopBtn.classList.toggle('opacity-100', scrollPosition > totalHeight / 2);
-
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        }
-
-        // Função para voltar ao topo da página com animação suave
-        const scrollToTop = () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        };
-
-        // Adiciona o evento de scroll para controlar a visibilidade do botão
-        window.addEventListener('scroll', checkScroll, { passive: true });
-        // Adiciona o evento de clique para voltar ao topo
-        backToTopBtn.addEventListener('click', scrollToTop);
-    </script>
 </body>
 
 </html>

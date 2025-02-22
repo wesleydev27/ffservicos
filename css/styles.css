@@ -1,0 +1,76 @@
+:root {
+    --primary: #fedc44;
+    --secondary: #013a64;
+    --white: #fff;
+    --black: #000;
+    --background: #f5f5f5;
+    --background-product: #5f5d5d;
+    --green-whatsapp: #25d366;
+    --green-hover: #25d365d2;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*ANIMAÇÃO MENU MOBILE*/
+#menu {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    /* Impede clique quando invisível */
+}
+
+#menu.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/*SUAVIDADE DE ROLAGEM*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*ANIMAÇÃO PULSO NOS BOTÕES*/
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        /* Aumenta o tamanho do botão */
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Aplicar animação no hover */
+a:hover {
+    animation: pulse 1s infinite;
+    /* Aplica o efeito de pulso infinito ao passar o mouse */
+}
+
+/*CSS PARA DESTACAR O PRODUTO*/
+.highlight {
+    animation: highlightEffect 1s ease-in-out alternate;
+}
+
+@keyframes highlightEffect {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+    }
+
+    100% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+    }
+}
