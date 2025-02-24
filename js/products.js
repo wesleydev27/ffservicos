@@ -163,9 +163,304 @@ const products = [
         image: "https://refrigeracao.tokpolar.com.br/manutencao-de-ar-condicionado/imagens/limpeza-ar-condicionado-de-janela-valor.jpg",
         link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
+    ,
+    {
+        name: "Prateleira",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_937289-MLB73961242974_012024-O.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    },
+
+    {
+        name: "Limpeza de ar condicionado split",
+        service: "Reparo",
+        image: "https://www.ohub.com.br/ideias/wp-content/uploads/2020/07/Limpeza-ar-condicionado-oHub-660x330.png",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Limpeza de chuveiro",
+        service: "Reparo",
+        image: "https://s2-casaejardim.glbimg.com/Uq1rkYMnUs2iDHBPnpi0PpPx6kY=/0x0:2121x1414/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2025/p/B/4LIuyVRGeIGZkuiAcsgA/como-limpar-chuveiro-gettyimages-casaejardim.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Barra Acessivel",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_806070-MLU78232951499_082024-O.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Quadro decorativo",
+        service: "Instalação",
+        image: "https://acdn-us.mitiendanube.com/stores/004/920/092/products/quadro-decorativo-paisagens-por-do-sol-moldura-e-vidro-sala-decoracoes-c634a033d7dc3df95517216197343842-640-0.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+
+    ,
+
+    {
+        name: "Cortina",
+        service: "Instalação",
+        image: "https://images.tcdn.com.br/img/img_prod/860511/cortina_duplex_monaco_5_40x2_50m_branco_bella_janela_1121_1_280d842815b31309642c8af128ff74d9.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+
+    ,
+
+    {
+        name: "Ventilador de teto",
+        service: "Instalação",
+        image: "https://m.media-amazon.com/images/I/41TbQ7HX11L._AC_SX679_.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+
+    ,
+
+    {
+        name: "Caixa de correio",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_944464-MLB78599288031_082024-O.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+
+    ,
+
+    {
+        name: "Dobradiça de armário",
+        service: "Instalação",
+        image: "https://images.tcdn.com.br/img/img_prod/651731/dobradica_de_pressao_para_movel_convencional_35mm_110o_22_variacao_82_1_20220509164648.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Fechadura",
+        service: "Instalação,Troca",
+        image: "https://images.tcdn.com.br/img/img_prod/842372/fechadura_pivotante_para_porta_de_passagem_cromado_ros34_7833_1_f5157e3ce178cfbdbe6065dc2dde13bd.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Folha de porta de madeira",
+        service: "Instalação",
+        image: "https://product-hub-prd.madeiramadeira.com.br/705718/images/1d79a67e-e5b7-4ad3-81fd-5fa15ebcf3d6eedc8970526d0f04710Lateral.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Protetor para quina de parede",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_2X_771031-MLB77442110158_072024-F.webp%202x",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+
+    {
+        name: "Tomada",
+        service: "Instalação, Troca",
+        image: "https://cdn.leroymerlin.com.br/products/tomada_dupla_fame_habitat_2p_t_20a_com_placa_4x2_branco_1570752212_bbe5_600x600.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Tomada 110v p 220v",
+        service: "Instalação, Troca",
+        image: "https://img.elo7.com.br/product/zoom/EA9753/adesivo-painel-eletrico-tomada-110-220-painel-eletrico.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Resistência de chuveiro",
+        service: "Instalação, Troca",
+        image: "https://lojastamoyo.fbitsstatic.net/img/p/resistencia-chuveiro-advanced-eletronico-7500-w-lorenzetti-89632/276185.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Sensor de presença",
+        service: "Instalação, Troca",
+        image: "https://bravalumi.cdn.magazord.com.br/img/2022/02/produto/2063/sensor-de-presenca-intelbras-para-iluminacao-articulado-espi-360a-bivolt.png",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Reator",
+        service: "Instalação, Troca",
+        image: "https://www.eletrofm.com.br/img/products/reator-convencional-2-x-65w-220v-intral_1_1000.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+
+    ,
+    {
+        name: "Lampada par ou dicroica",
+        service: "Instalação, Troca",
+        image: "https://images.tcdn.com.br/img/img_prod/1249590/lampada_led_dicroica_par16_dimerizavel_gu10_36o_2700k_7w_bivolt_437377_brilia_271_1_faca627a22b6acf5ad7ac103809e22e0.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Luminária",
+        service: "Instalação, Troca",
+        image: "https://lojaorganizeja.com/cdn/shop/files/PendenteLuminariaParaCozinhaModerna-UrbanGlow-lojaorganizeja.com_15_-Copia.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Fiacão elétrica ar condicionado",
+        service: "Instalação, Troca",
+        image: "https://arcondicionadoararaquara.com.br/wp-content/uploads/2021/03/instalacao-eletrica-ar-condicionado-em-araraquara-aramaster-01.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Fiação eletrica de chuveiro",
+        service: "Instalação, Troca",
+        image: "https://images.homify.com/image/upload/v1618419710/p/diy/photos/ng8ooiigh1qctxq1ys8b.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Projeto elétrico",
+        service: "Construção m2",
+        image: "https://engehall.com.br/wp-content/uploads/2024/08/projetos-eletricos.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Disjuntor",
+        service: "Instalação, Troca",
+        image: "https://lojaacal.vteximg.com.br/arquivos/ids/201121-1000-1000/Disjuntor-Triplo-Curva-C-16A-3P-TDJ3-3-3KA-Tramontina-Eletrica.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    },
+    {
+        name: "Lâmpada",
+        service: "Instalação, troca, retirada",
+        image: "https://eletroenergia.com.br/wp-content/uploads/2016/02/Design-sem-nome-5-scaled.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Canaleta plastica",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_698241-MLB32568004041_102019-O.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Interruptor",
+        service: "Instalação, manutenção, troca",
+        image: "https://images.tcdn.com.br/img/img_prod/625353/10_pcs_conjunto_interruptor_simples_10a_250v_vertical_slim_ilm0062_9729_1_20200403121708.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Cabeamento tv e internet",
+        service: "Instalação",
+        image: "https://nextcable.com.br/wp-content/uploads/2020/06/caboscat5678.01-1024x682@2x-1.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Exaustor de banheiro",
+        service: "Instalação",
+        image: "https://seubanheirointeligente.com.br/wp-content/uploads/2023/06/Como-instalar-o-Exaustor-para-Banheiro.png",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Vazamentos em canos",
+        service: "Reparo",
+        image: "https://graiche.com.br/wp-content/uploads/2021/07/Saiba-como-detectar-possiveis-vazamentos-de-agua-em-sua-casa-1.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Vazamentos em pia sifão",
+        service: "Reparo",
+        image: "https://triider-prd-blog-files.s3.sa-east-1.amazonaws.com/wp-content/uploads/2018/03/05201642/vazamento-de-agua-no-banheiro-como-identificar.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Torneira de parede",
+        service: "Instalação",
+        image: "https://http2.mlstatic.com/D_NQ_NP_682346-MLB74050416670_012024-O.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Reparo de torneira",
+        service: "Reparo",
+        image: "https://cdn.awsli.com.br/600x450/47/47186/produto/28574134/0700120-n8uwiinh6t.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    },
+
+    {
+        name: "Torneira de bancada",
+        service: "Instalação",
+        image: "https://tikdecasa.com.br/wp-content/uploads/2023/06/15195370292_Torneira-Link-Bancada-Lavatorio-Banheiro-Mesa-Metal-Luxo-45o-Tik-de-Casa-Dazie-Metais-Daza-Me.webp",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Sifão",
+        service: "Instalação",
+        image: "https://cdn.awsli.com.br/600x450/158/158648/produto/10265437/2fa20a5cdc.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Ralo pia valvula",
+        service: "Instalação",
+        image: "https://cdn.awsli.com.br/600x1000/2562/2562222/produto/203385601/3-18ka65m3qm.png",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Descarga de vaso valvula hydra",
+        service: "Instalação",
+        image: "https://cdn.leroymerlin.com.br/products/valvula_descarga_cobre_hydra_clean_cromado_3_80_cm_deca_86605722_0001_600x600.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Ducha higiênica",
+        service: "Instalação",
+        image: "https://cdn.awsli.com.br/600x450/47/47186/produto/38491304/a1382aa9e6.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Filtro de água",
+        service: "Instalação",
+        image: "https://cdn.awsli.com.br/2541/2541980/produto/202404299/82122145fce56dc2df-karatn.jpg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Registo",
+        service: "Instalação, Troca",
+        image: "https://cdn.awsli.com.br/600x700/2684/2684876/produto/244017584/fst_5982-btgeizd283.jpeg",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
+    ,
+    {
+        name: "Limpeza de caixa d'água",
+        service: "Limpeza",
+        image: "https://caixaforte.ind.br/wp-content/uploads/2024/02/caixa-forte.png",
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+    }
 ];
 // Embaralha a ordem dos produtos
-products.sort(() => Math.random() - 0.5);
+//products.sort(() => Math.random() - 0.5);
 
 
 
