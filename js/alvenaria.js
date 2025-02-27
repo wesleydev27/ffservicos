@@ -1,11 +1,77 @@
 // ARRAY DE PRODUTOS
 const products = [
     {
-        name: "Assento para vaso sanitário",
+        name: "Demolição ceramica",
+        service: "Demolição",
+        image: "https://www.construtecequipamentos.com.br/wp-content/uploads/2020/03/ferramentas-para-demoli%C3%A7%C3%A3o-1200x480.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Pia de banheiro",
         service: "Instalação",
-        image: "https://http2.mlstatic.com/D_NQ_NP_2X_817625-MLU75151960170_032024-F.webp",
-        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
+        image: "https://http2.mlstatic.com/D_NQ_NP_759738-MLU73681222661_122023-O.webp",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Limpeza de calhas e rufos Por m2 linear",
+        service: "Limpeza",
+        image: "https://www.hardclean.com.br/wp-content/uploads/2020/04/limpeza-de-calhas-em-curitiba-pr.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Demolição, contrapiso por m2",
+        service: "Demolição",
+        image: "https://thumb-cdn.soluall.net/prod/shp_products/sp1280fw/63a3693c-2498-4eaf-a362-5c40ac1e0fec/63a3693c-31bc-4e93-ab4d-5c40ac1e0fec.png",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    ,
+    {
+        name: "Vaso sanitário",
+        service: "Instalação",
+        image: "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/coresviv/catalog/api/coresviv_integrac/63e65057b5954.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Telhado por m2",
+        service: "Instalação",
+        image: "https://fibersals.com.br/wp-content/uploads/2018/07/xmelhor-telhado-para-terraco-2.jpg.pagespeed.ic.Lelf-nOdUt.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    ,
+    {
+        name: "Demolição de parede para elétrica",
+        service: "Demolição",
+        image: "https://i.ytimg.com/vi/g1PWkztM_zY/maxresdefault.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Demolição ceramica",
+        service: "Demolição",
+        image: "https://www.construtecequipamentos.com.br/wp-content/uploads/2020/03/ferramentas-para-demoli%C3%A7%C3%A3o-1200x480.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    ,
+    {
+        name: "Tanque",
+        service: " Instalação",
+        image: "https://product-hub-prd.madeiramadeira.com.br/354016/images/58be5e83-90a8-46c6-b58d-7166841877faastra78912221167841600x600.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    ,
+    {
+        name: "Demolição",
+        service: "Demolição de parede",
+        image: "https://blog.obramax.com.br/wp-content/uploads/2021/04/demolicao-guia-completo-com-tudo-que-voce-precisa-saber-1.jpg",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+    },
+    {
+        name: "Reboco por m2",
+        service: "Reboco",
+        image: "https://www.queveks.com.br//upload/notice_image/entenda-o-que-e-reboco-e-conheca-um-pouco-mais-sobre-a-sua-funcao-no-revestimento-de-paredes-5fc1149e857d4.png",
+        link: "https://wa.me/5511976080419?text=Ol%C3%A1%20eu%20vim%20do%20site%20FF%20Service%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
     }
+
+
 
 ];
 // Embaralha a ordem dos produtos
