@@ -536,7 +536,7 @@ const products = [
     }
 ];
 // Embaralha a ordem dos produtos
-//products.sort(() => Math.random() - 0.5);
+products.sort(() => Math.random() - 0.5);
 
 
 
